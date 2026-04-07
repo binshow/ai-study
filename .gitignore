@@ -1,0 +1,30 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & artifacts (usually large / local)
+data/**
+!data/.gitkeep
+models/**
+!models/.gitkeep
+
+# Logs / outputs
+*.log
+outputs/
+runs/
+
+# Editor / tooling
+.vscode/
+.idea/
